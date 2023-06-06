@@ -1,0 +1,30 @@
+import React from 'react';
+
+This statement is written to import the react libraries with all the predefined functions and keywords.
+
+React DOM-In the library side there is hierarchy , react-DOM is a library module inside which client module lies as a subset.
+
+JSX allows us to write html within a javascript file.
+
+The way of passing any property in react is by props.
+
+Syntax of passing a property to child
+
+React Provide its different functions useState,useEffect,etc.
+React executes UseEffect after the component is rendered. When the component is rendered(display on the screen with the new change), react platform will invoke immediately the useEffect ones
+
+function declaration starts with 18-31.And then there is another parameter in that, empty array (it will execute the use effect only once , when it renders only once) ,
+
+useEffect
+
+generate random color and then invoking set color method.
+Set color method is a special function. whenever the color changes react eill render. With Setcolor we are changing the value of the color,the color variable is a state .We are asking react to display the color when the color chnges.
+
+Set interval- Whenever the time interval passes we are doing a set color .
+JS function.
+We are using the usestate ,
+
+
+
+
+

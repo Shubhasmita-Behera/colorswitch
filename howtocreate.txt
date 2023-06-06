@@ -1,0 +1,62 @@
+npx create-react-app appname
+The above command creates the package.json file which has got all the dependencies needed for a react application.
+
+It also creates a few directories ,i.e. the public and src directories and it creates a node_module directory with all the library modules that is implied by the package.json file.
+Also in the source(src) directory an App.js file is created and some of the initial code for the App.js component is created.
+It create all the skeleton files like App.css,App.test.js,index.js file which is a primary javascript file for the site HTML page which is in the public directory.
+The public index.html and the source index.js file work together to make the app available on the browser.
+The functions like UseEffect,UseStateand createContext are imported from the react library.
+a context is created byusing CreateContext().
+The colorcontext.provider returns the value as color .'
+
+Component is a function. Square function throws out which a normal HTML page cannot understand.
+
+react has got the syntax of JSX code , The JSX is converted to normal HTML by react platform.
+The square has only one variable tht is color. The color variabble is used to set the 
+
+app.js is the file which keeps all the component together.
+ Why the color needs useeffect usestate setinterval (ColorContext.js)?
+
+ style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        width: "300px",
+        height: "620px",
+        margin: "50px auto",
+        borderRadius: "20px",
+        border: "2px solid blue",
+        overflow: "hidden",
+      }}
+the first curly braces is for the JSX. For JSX to evaluate the expression we need a curly bracket.
+
+Because we are passing a value in json we need the second curly bracket .
+Style is a value that is passed to the JSx.
+All the components share the style value as they are in the parent DIV.
+purpose of the parent div is to position all the components in the center inside a mobile shape box.
+
+
+ColorContext is created from the react platform using create context by createContext function.
+
+Colorprovider has got children as props and we are passing different properties.Destructuring of props into children.
+
+ColorContext.provider is the tag return from the colorprovider.
+provider is basically taking color as a destructuring props
+
+
+to do by 6 of june is 1:how to expose .files in windows
+2:Delete.git File/directory in color switch
+3:clone nodepp repository to a directory called Mynode.
+4:Copy nodepp directory in mynode
+5:Do git add .in mynode directory app
+6:git commit and git push
+
+
+
+
+
+
+
+
+
